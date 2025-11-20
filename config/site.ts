@@ -26,44 +26,28 @@ export const siteConfig = {
     },    
   ],
   navMenuItems: [
-    {
-      label: "Profile",
-      href: "/profile",
+        {
+      label: "Home",
+      href: "/",
     },
     {
-      label: "Dashboard",
-      href: "/dashboard",
+      label: "Saberes",
+      href: "/saberes",
     },
     {
-      label: "Projects",
-      href: "/projects",
+      label: "Recetario",
+      href: "/recetario",
     },
     {
-      label: "Team",
-      href: "/team",
+      label: "Talleres",
+      href: "/talleres",
     },
     {
-      label: "Calendar",
-      href: "/calendar",
-    },
-    {
-      label: "Settings",
-      href: "/settings",
-    },
-    {
-      label: "Help & Feedback",
-      href: "/help-feedback",
-    },
-    {
-      label: "Logout",
-      href: "/logout",
-    },
+      label: "Mercado",
+      href: "/mercado",
+    }, 
   ],
   links: {
-    github: "https://github.com/heroui-inc/heroui",
-    twitter: "https://twitter.com/hero_ui",
-    docs: "https://heroui.com",
-    discord: "https://discord.gg/9b6yyZKmH4",
-    sponsor: "https://patreon.com/jrgarciadev",
+    github: "https://github.com/prrocontento/saberes-ipn",
   },
 };
