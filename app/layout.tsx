@@ -3,6 +3,7 @@ import { Link } from "@heroui/link";
 import clsx from "clsx";
 import { Metadata, Viewport } from "next";
 
+import { BuildAlert } from "@/components/build-alert";
 import { Navbar } from "@/components/navbar";
 import { fontSans } from "@/config/fonts";
 import { siteConfig } from "@/config/site";
@@ -45,16 +46,19 @@ export default function RootLayout({
             <Navbar />
             <main className="container mx-auto max-w-7xl pt-16 px-6 flex-grow">
               {children}
+              <div className="flex h-full flex-col items-center justify-center py-2">
+                <BuildAlert />
+              </div>
             </main>
             <footer className="w-full flex items-center justify-center py-3">
               <Link
                 isExternal
                 className="flex items-center gap-1 text-current"
-                href="https://heroui.com?utm_source=next-app-template"
-                title="heroui.com homepage"
+                href="https://github.com/prrocontento/saberes-ipn"
+                title="Proyecto IH-2025-I-268"
               >
-                <span className="text-default-600">Powered by</span>
-                <p className="text-primary">HeroUI</p>
+                <span className="text-default-600">Clave del proyecto</span>
+                <p className="text-primary">IH-2025-I-268</p>
               </Link>
             </footer>
           </div>
