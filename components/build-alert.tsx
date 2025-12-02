@@ -9,7 +9,7 @@ import { Link } from "@heroui/link";
 export const BuildAlert = () => {
 
   return (
-    <Card className="w-1/2">
+    <Card className="w-1/2 md:w-full">
       <CardHeader className="flex gap-3">
         <Image
           alt="Logo UPIICSA"
