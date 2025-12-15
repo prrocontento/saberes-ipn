@@ -1,69 +1,35 @@
 export type SiteConfig = typeof siteConfig;
 
+const menuLinks = [
+  {
+    label: "Home",
+    href: "/",
+  },
+  {
+    label: "Saberes",
+    href: "/saberes",
+  },
+  {
+    label: "Recetario",
+    href: "/recetario",
+  },
+  {
+    label: "Talleres",
+    href: "/talleres",
+  },
+  {
+    label: "Mercado",
+    href: "/mercado",
+  },
+];
+
 export const siteConfig = {
   name: "Next.js + HeroUI",
   description: "Make beautiful websites regardless of your design experience.",
-  navItems: [
-    {
-      label: "Home",
-      href: "/",
-    },
-    {
-      label: "Saberes",
-      href: "/saberes",
-    },
-    {
-      label: "Recetario",
-      href: "/recetario",
-    },
-    {
-      label: "Talleres",
-      href: "/talleres",
-    },
-    {
-      label: "Mercado",
-      href: "/mercado",
-    },    
-  ],
-  navMenuItems: [
-    {
-      label: "Profile",
-      href: "/profile",
-    },
-    {
-      label: "Dashboard",
-      href: "/dashboard",
-    },
-    {
-      label: "Projects",
-      href: "/projects",
-    },
-    {
-      label: "Team",
-      href: "/team",
-    },
-    {
-      label: "Calendar",
-      href: "/calendar",
-    },
-    {
-      label: "Settings",
-      href: "/settings",
-    },
-    {
-      label: "Help & Feedback",
-      href: "/help-feedback",
-    },
-    {
-      label: "Logout",
-      href: "/logout",
-    },
-  ],
+  
+  navItems: menuLinks,
+  navMenuItems: menuLinks,
   links: {
-    github: "https://github.com/heroui-inc/heroui",
-    twitter: "https://twitter.com/hero_ui",
-    docs: "https://heroui.com",
-    discord: "https://discord.gg/9b6yyZKmH4",
-    sponsor: "https://patreon.com/jrgarciadev",
+    github: "https://github.com/prrocontento/saberes-ipn",
   },
 };
