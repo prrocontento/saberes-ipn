@@ -1,0 +1,13 @@
+{
+  "HomePage": {
+    "title": "Home",
+    "welcome": "Welcome to the Saberes portal"
+  },
+  "Navbar": {
+    "home": "Home",
+    "saberes": "Knowledge",
+    "recetario": "Recipes",
+    "talleres": "Workshops",
+    "mercado": "Market"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "HomePage": {
+    "title": "Inicio",
+    "welcome": "Bienvenido al portal de Saberes"
+  },
+  "Navbar": {
+    "home": "Inicio",
+    "saberes": "Saberes",
+    "recetario": "Recetario",
+    "talleres": "Talleres",
+    "mercado": "Mercado"
+  }
+}
