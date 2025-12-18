@@ -3,7 +3,6 @@ import { Link } from "@heroui/link";
 import clsx from "clsx";
 import { Metadata, Viewport } from "next";
 
-import { BuildAlert } from "@/components/build-alert";
 import { Navbar } from "@/components/navbar";
 import { fontSans } from "@/config/fonts";
 import { siteConfig } from "@/config/site";
@@ -44,11 +43,8 @@ export default function RootLayout({
         <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
           <div className="relative flex flex-col h-screen">
             <Navbar />
-            <main className="container mx-auto max-w-7xl pt-16 px-6 flex-grow">
+            <main className="w-full">
               {children}
-              <div className="flex h-full flex-col items-center justify-center py-2">
-                <BuildAlert />
-              </div>
             </main>
             <footer className="w-full flex items-center justify-center py-3">
               <Link

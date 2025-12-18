@@ -1,10 +1,13 @@
+import { BuildAlert } from "@/components/build-alert";
 import { title } from "@/components/primitives";
 
 
 export default function Home() {
   return (
  <div className="text-center">
-      <h1 className={title()}>Home</h1>
+      <div className="flex h-full flex-col items-center justify-center p-24">
+                <BuildAlert />
+              </div>
     </div>
   );
 }

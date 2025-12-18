@@ -1,7 +1,6 @@
 import { Link } from "@heroui/link";
 import {
   Navbar as HeroUINavbar,
-  NavbarBrand,
   NavbarContent,
   NavbarItem,
   NavbarMenu,
@@ -13,8 +12,7 @@ import clsx from "clsx";
 import NextLink from "next/link";
 
 import {
-  GithubIcon,
-  Logo
+  GithubIcon
 } from "@/components/icons";
 import { ThemeSwitch } from "@/components/theme-switch";
 import { siteConfig } from "@/config/site";
@@ -24,14 +22,10 @@ export const Navbar = () => {
   return (
     <HeroUINavbar maxWidth="xl" position="sticky">
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
-        <NavbarBrand as="li" className="gap-3 max-w-fit">
-          <NextLink className="flex justify-start items-center gap-1" href="/">
-            <Logo />
-          </NextLink>
-        </NavbarBrand>
+       
         <ul className="hidden lg:flex gap-4 justify-start ml-2">
           {siteConfig.navItems.map((item) => (
-            <NavbarItem key={item.href}>
+            <NavbarItem  key={item.href}>
               <NextLink
                 className={clsx(
                   linkStyles({ color: "foreground" }),
