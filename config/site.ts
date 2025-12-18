@@ -2,7 +2,7 @@ export type SiteConfig = typeof siteConfig;
 
 const menuLinks = [
   {
-    label: "Home",
+    label: "Inicio",
     href: "/",
   },
   {
@@ -12,10 +12,6 @@ const menuLinks = [
   {
     label: "Recetario",
     href: "/recetario",
-  },
-  {
-    label: "Talleres",
-    href: "/talleres",
   },
   {
     label: "Mercado",
